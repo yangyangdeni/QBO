@@ -123,6 +123,8 @@
 	时，右侧第二项与第三项都是奇点，对应无限的强迫。至少应该要求，这两项对整个y(或$\xi$)积分应该是有限的。
 	所以，被积分项最大只能有一阶极点，因此要求
 	\[I_3\propto\beta^2\xi^2l_0^2-{\widehat{\omega}}^2\]
+	得到:
+	\[l_1=-\frac{1}{2}i\frac{dU/dz}{\sqrt{gS}}l_0\]
 	
 	此时恰巧右侧第二项与第三项之和为0，让第一项对$\xi$的积分对$\Phi_0$无投影来避免共振，最后得到
 	\[A_0=\frac{constant}{\sqrt{fl_0}}\]
@@ -140,6 +142,10 @@
 	\frac{1}{(c-U)^{1/2}}\frac{dy}{d\xi}\int_{-\infty}^{+\infty}exp(-\xi^2)d\xi\ exp(2i\widehat{z})
 	=Aexp(2i\ Im\{\widehat{z}\})
 	\end{align}
+	
+	这里利用了之前$l_1$的结果，
+	\[exp(-\xi^2/2)\approx exp(-\frac{y^2}{l_0^2}(1+Ri^{-1/2}i))\]
+	
 	为了求$\widehat{z}$的虚部，将f中的$i\frac{\alpha}{k}$恢复出来，c恢复为$-\frac{\omega}{k}$,泰勒展开得到
 	\begin{align}\label{f}
 	f^{(-1)}\approx\frac{\sqrt{gS}}{c-U}[1-\frac{i\alpha}{k(c-U)}]
